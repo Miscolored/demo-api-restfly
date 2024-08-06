@@ -12,5 +12,3 @@ The finished code should wrap up the API and be able to iterate through all page
 
 # notes
 known to support python 3.8.5
-#TODO pytesting
-#TODO ci
