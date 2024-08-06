@@ -19,12 +19,12 @@ from __future__ import annotations
 
 from restfly.session import APISession
 
-from reqres.user_list_endpoint import UserListEndpoint
+from reqres.users_endpoint import UsersEndpoint
 
 
 class API(APISession):
     _url = "https://reqres.in/api"  # no trailing slash by RESTfly standard
 
     @property
-    def users(self) -> UserListEndpoint:
-        return UserListEndpoint(self)
+    def users(self) -> UsersEndpoint:
+        return UsersEndpoint(self)
