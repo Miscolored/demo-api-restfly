@@ -12,7 +12,7 @@ from __future__ import annotations
 from restfly.iterator import APIIterator
 
 
-class UserIterator(APIIterator):
+class UsersIterator(APIIterator):
     def _get_page(self) -> None:
         resp = self._api.get(
             "users",
@@ -23,3 +23,4 @@ class UserIterator(APIIterator):
 
         self.total = resp.get("total")
         self.page = resp.get("data", list())
+        self.max_pages = resp.get("total_pages")
