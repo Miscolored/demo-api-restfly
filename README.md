@@ -1,3 +1,4 @@
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/Miscolored/demo-api-restfly/main.svg)](https://results.pre-commit.ci/latest/github/Miscolored/demo-api-restfly/main)
 # demo-api-restfly
 Demonstration of using RESTfly to wrap Reqres API call
 
