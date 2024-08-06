@@ -1,14 +1,8 @@
 """
-Demo Users API
-==============
+User List Endpoint
+==================
 
-The following classes wrap https://reqres.in/api using RESTfly
-
-Usage:
-from demo.users import Reqres
-reqres_api = Reqres()
-for user in reqres_api.users.list():
-    print(user)
+Wires the UserIterator RESTfly object to the list method of the user API
 
 """
 

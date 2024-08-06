@@ -10,6 +10,7 @@ The finished code should wrap up the API and be able to iterate through all page
 # usage
 `pip install -r requirements.txt`
 `python app.py`
+`pre-commit run -a`
 
 # notes
-known to support python 3.8.5
+known to support python 3.8.5, others untested
