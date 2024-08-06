@@ -4,9 +4,12 @@ Reqres API
 
 The following classes wrap https://reqres.in/api using RESTfly
 
-Usage:
-from demo.users import Reqres
-reqres_api = Reqres()
+Example Usage:
+
+from reqres.api import API as ReqresAPI
+
+reqres_api = ReqresAPI()
+
 for user in reqres_api.users.list():
     print(user)
 
