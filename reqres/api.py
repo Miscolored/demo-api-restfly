@@ -1,6 +1,6 @@
 """
-Demo Users API
-==============
+Reqres API
+==========
 
 The following classes wrap https://reqres.in/api using RESTfly
 

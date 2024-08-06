@@ -1,14 +1,9 @@
 """
-Demo Users API
-==============
+User Iterator
+=============
 
-The following classes wrap https://reqres.in/api using RESTfly
-
-Usage:
-from demo.users import Reqres
-reqres_api = Reqres()
-for user in reqres_api.users.list():
-    print(user)
+Manages the pagination of the Reqres `users` api,
+presenting instead a Python iterator
 
 """
 
